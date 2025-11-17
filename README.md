@@ -44,12 +44,12 @@ cd app-launcher
 
 2. Make executable:
 ```bash
-chmod +x launcher_app4.py
+chmod +x slinglaunchapp.py
 ```
 
 3. Run the application:
 ```bash
-./launcher_app4.py
+./slinglaunchapp
 ```
 
 Or with Python:
@@ -71,7 +71,7 @@ To launch the application with a keyboard shortcut:
 1. Example shortcut for `Super` (Windows) key:
 ```bash
 # Add to ~/.bashrc or ~/.zshrc
-alias launcher="/path/to/launcher_app4.py"
+alias launcher="/path/to/slinglaunchapp.py"
 ```
 
 2. To create a system shortcut, create `~/.local/share/applications/launcher.desktop` file:
@@ -81,7 +81,7 @@ Version=1.0
 Type=Application
 Name=App Launcher
 Comment=Modern application launcher
-Exec=/path/to/launcher_app4.py
+Exec=/path/to/slinglaunchapp.py
 Icon=application-x-executable
 Categories=Utility;
 Terminal=false
