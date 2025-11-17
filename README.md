@@ -54,7 +54,7 @@ chmod +x slinglaunchapp.py
 
 Or with Python:
 ```bash
-python3 launcher_app4.py
+python3 slinglaunchapp.py
 ```
 
 ## ⌨️ Usage
